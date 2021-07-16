@@ -1,0 +1,5 @@
+O que vou apŕender na Trybe: 
+
+-Unis
+-Bash
+-Git
