@@ -61,7 +61,10 @@
       const tagH1 = document.createElement('h1'); //tag criada e vinculada a const h1, porem não anexada
       tagH1.innerText = 'Exercício 5.2 - JavaScript DOM'; //inserindo texto dentro da tag
       document.body.appendChild(tagH1); // anexando a nova tag ao body
-
-    </script>
+      // 2. Adicione a tag main com a classe main-content como filho da tag body ;
+      const tagMain = document.createElement('main');
+      tagMain.className = 'main-content';
+      document.body.appendChild(tagMain);    
+      </script>
   </body>
 </html>
