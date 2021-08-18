@@ -8,6 +8,36 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header>
+      <h1>FORMULÁRIO DE CURRÍCULO</h1>
+    </header>
+    <fieldset class="campos">
+      <label for="name"
+        >Nome: <input maxlength="40" required type="text" id="name" />
+      </label>
+      <label for="email"
+        >Email:<input maxlength="50" required type="email" id="email"
+      /></label>
+      <label for="cpf"
+        >CPF:<input maxlength="11" required type="text" id="cpf"
+      /></label>
+      <label for="address"
+        >Endereço:<input maxlength="200" required type="text" id="address" />
+      </label>
+      <label for="city"
+        >Cidade: <input maxlength="28" required id="city" type="text" />
+      </label>
+      <label for="state"
+        >Estado:<select required name="estado" id="state"></select
+      ></label>
+      <label for="home"
+        >Casa <input id="home" name="residence" type="radio"
+      /></label>
+      <label for="apt"
+        >Apartamento <input id="apt" type="radio" name="residence"
+      /></label>
+    </fieldset>
+
     <script src="script.js"></script>
   </body>
 </html>
