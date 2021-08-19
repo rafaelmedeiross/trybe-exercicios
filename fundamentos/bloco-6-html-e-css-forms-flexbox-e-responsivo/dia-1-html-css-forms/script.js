@@ -42,4 +42,9 @@ let cv = document.createElement("input");
 let cargo = document.createElement("input");
 let desCargo = document.createElement("input");
 let dataInicio = document.createElement("input");
+
 document.body.appendChild(campo2);
+campo2.appendChild(cv);
+campo2.appendChild(cargo);
+campo2.appendChild(desCargo);
+campo2.appendChild(dataInicio);
