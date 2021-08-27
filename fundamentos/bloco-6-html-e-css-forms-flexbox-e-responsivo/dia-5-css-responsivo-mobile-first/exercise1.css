@@ -38,3 +38,18 @@ figure {
    width: 40%;
    float: left;
   }
+ }
+
+ @media screen and (min-width: 900px) {
+  body {
+   max-width: fit-content;
+   background-color: red;
+   font-size: x-large;
+  }
+
+  h1 {
+   font-size:xxx-large;
+  }
+  h2 {
+   font-size: xx-large;
+  }
