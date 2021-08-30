@@ -36,14 +36,18 @@ const order = {
 
 const customerInfo = (order) => {
   // Adicione abaixo as informações necessárias.
-
+ console.log(`Ola, ${order.order.delivery.deliveryPerson}, entrega para: ${order.name}, ${order.phoneNumber}, ${Object.values(order.address)}`);
 }
 
 customerInfo(order);
 
 const orderModifier = (order) => {
-  // Adicione abaixo as informações necessárias.
+ const novaOrd = Object.assign({}, order);
+ novaOrd.name = "Luiz Silva";
+ novaOrd.payment.total = "50";
 
+ console.log(`Olá, ${novaOrd.name}, o total do seu pedido é ${novaOrd.payment.total}`)
 }
 
 orderModifier(order);
+console.log(order);
