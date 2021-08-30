@@ -25,3 +25,10 @@ const addTurn = (obj, chave, valor,) => {
 addTurn(lesson2, 'turno', "manhã")
 
 console.log(lesson2);
+
+const listaKeys = (objeto) => {
+ const a = Object.keys(objeto);
+ console.log(a);
+}
+
+listaKeys(lesson3)
